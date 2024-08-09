@@ -1,0 +1,17 @@
+{
+  "name": "atividade-modulo-22",
+  "version": "1.0.0",
+  "description": "Atividade do módulo 22",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "Ramon Cajueiro",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.13.2"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}
