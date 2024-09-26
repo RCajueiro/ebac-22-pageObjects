@@ -1,6 +1,28 @@
 {
-  "endereço": "Avenida Octávio Mangabeira, 0",
-  "cidade": "Salvador",
-  "estado": "Bahia",
-  "cep": "40.000-000"
+    "success": true,
+    "product": {
+        "_id": "66d60a1ea60ca1ef7fa04095",
+        "categories": [
+            {
+                "_id": "66d60921a60ca1ef7fa04087",
+                "name": "Clothes"
+            }
+        ],
+        "photos": [
+            "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/ingrid1-1725303325813.webp",
+            "http://lojaebac.ebaconline.art.br/lojaebac/lojaebac/ingrid2-1725303325815.webp"
+        ],
+        "visible": true,
+        "additionalDetails": [],
+        "name": "Jaqueta de Corrida Ingrid",
+        "price": 100,
+        "quantity": 9955,
+        "description": "<p><span style=\"color: rgb(102, 102, 102);\">A Jaqueta Ingrid Running combina design elegante e alto desempenho com um ajuste fino e contornado e tecido que absorve a umidade. Ela possui uma construção com zíper completo e uma gola para manter os elementos externos fora e o calor corporal dentro.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Ajuste slim.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Tecido que absorve a umidade.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Dois bolsos laterais.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Bolso com zíper na parte inferior das costas.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Lavar à máquina/secar.</span></p><p><span style=\"color: rgb(102, 102, 102);\">• Zíper completo salpicado de marfim</span></p>",
+        "popular": true,
+        "location": "EBAC, São Paulo, SP, Brasil",
+        "specialPrice": 84,
+        "createdAt": "2024-09-02T18:55:26.231Z",
+        "updatedAt": "2024-09-24T14:12:23.277Z",
+        "__v": 0
+    }
 }

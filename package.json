@@ -1,7 +1,7 @@
 {
-  "name": "atividade-modulo-22",
+  "name": "atividade-modulo-23",
   "version": "1.0.0",
-  "description": "Atividade do módulo 22",
+  "description": "Atividade do módulo 23",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run"
