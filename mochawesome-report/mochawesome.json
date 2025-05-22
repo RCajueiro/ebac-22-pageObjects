@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-05-20T23:27:48.342Z",
+    "end": "2025-05-20T23:27:59.184Z",
+    "duration": 10842,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8594a2c3-8aa7-4898-94e7-717ac6fb28ef",
+      "title": "",
+      "fullFile": "cypress\\e2e\\intercept.cy.js",
+      "file": "cypress\\e2e\\intercept.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0482e522-b119-4d1f-be76-e31801168a6a",
+          "title": "Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login",
+              "fullTitle": "Login Login",
+              "timedOut": null,
+              "duration": 10749,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('GET', '**/public/getProductDetails/66d60a1ea60ca1ef7fa04095', {\n  fixture: 'checkout.json'\n}).as('intercept');\ncy.get('[data-testid=\"search-icon\"]').click();\ncy.get('[data-testid=\"searchInput\"]').click().type('Ingrid Running Jacket');\ncy.get('[data-testid=\"productDetails\"]').contains('Ingrid').click({\n  force: true\n});\ncy.get('[data-testid=\"addToCart\"]').click();\ncy.get('[data-testid=\"productName\"]').first().should('have.text', 'Ingrid Running Jacket');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Ingrid' within the element: <div.css-175oi2r.r-1i6wzkk.r-lrvibr.r-1loqt21.r-1otgn73> but never did.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Ingrid' within the element: <div.css-175oi2r.r-1i6wzkk.r-lrvibr.r-1loqt21.r-1otgn73> but never did.\n    at Context.eval (webpack://atividade-modulo-26/./cypress/e2e/intercept.cy.js:25:49)",
+                "diff": null
+              },
+              "uuid": "4fa2ab08-307c-4deb-b4f2-8ae427771e21",
+              "parentUUID": "0482e522-b119-4d1f-be76-e31801168a6a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "4fa2ab08-307c-4deb-b4f2-8ae427771e21"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 10749,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
