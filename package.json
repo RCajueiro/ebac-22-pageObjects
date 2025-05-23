@@ -9,7 +9,10 @@
   "author": "Ramon Cajueiro",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.13.2"
+    "cypress": "^13.13.2",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1"
