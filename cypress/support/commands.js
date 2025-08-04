@@ -15,8 +15,8 @@
 // -- This is a child command --
 Cypress.Commands.add('checkout', (nome, telefone, endereço, cidade, estado, cep) => { 
     cy.get('[data-testid="search-icon"]').click()
-    cy.get('[data-testid="searchInput"]').click().type('Ingrid Running Jacket')
-    cy.get('[data-testid="productDetails"]').contains('Ingrid').click({force: true})
+    cy.get('[data-testid="searchInput"]').click().type('Tênis Esportivo')
+    cy.get('[data-testid="productDetails"]').contains('Tênis').click({force: true})
     cy.get('[data-testid="addToCart"]').click()
     cy.get('[data-testid="addItem"] > .css-146c3p1').click()
     cy.get('[data-testid="addNewAddress"] > .r-lrvibr').click()
