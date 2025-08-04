@@ -4,7 +4,8 @@
   "description": "Atividade do módulo 22",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run"
+    "test": "npx cypress run",
+    "cy:dash": "npx cypress run --record --key 890bd366-aa6b-4582-9a8a-7d5831e3a45d"
   },
   "author": "Ramon Cajueiro",
   "license": "ISC",
